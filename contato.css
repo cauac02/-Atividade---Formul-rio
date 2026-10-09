@@ -1,0 +1,53 @@
+.titulo-pagina {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.titulo-pagina h1 {
+    font-size: 36px;
+}
+
+.titulo-pagina p {
+    color: var(--cinza-claro);
+    margin-top: 10px;
+}
+
+.contato-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 20px 60px 60px 60px;
+}
+
+.formulario {
+    padding: 30px;
+    background-color: var(--cinza);
+    border-radius: 8px;
+}
+
+.formulario h2 {
+    margin-bottom: 15px;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+    width: 100%;
+    margin-top: 5px;
+    padding: 11px;
+    font: inherit;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.formulario button {
+    margin-top: 18px;
+}
